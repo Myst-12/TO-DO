@@ -1,0 +1,48 @@
+.heading{
+    margin-top: 0;
+    text-align: center;
+    background-color: #ffc2c2;
+}
+.heading:hover{
+    background-color: #ffadad;
+    transition: 0.5s;
+}
+body{
+    margin:0px;
+    background-color: aliceblue;
+}
+#input{
+    width: 200px;
+    margin: 10px;
+}
+
+#add{
+    width: 50px;
+    background-color: rgb(130, 229, 130);
+    border-radius: 10%;
+    box-shadow: 5px 2px 5px;
+}
+#add:hover{
+    box-shadow: 10px 4px 10px;
+    transition: 0.5s;
+    background-color: rgb(56, 255, 56);
+}
+#list{
+    margin: 10px;
+    line-height: 30px;
+}
+
+.list-items {
+    transition: opacity 1s ease-in-out, transform 2s ease-in;
+}
+
+.list-items.done {
+    opacity: 0;
+}
+
+.list-items.done .list-label {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
