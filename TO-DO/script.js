@@ -15,6 +15,7 @@ function handle(){
 
         list_checkbox = document.getElementsByClassName("list-checkbox")
         list_items = document.getElementsByClassName("list-items")
+
         for (let i=0; i<list_checkbox.length; i++){
             list_checkbox[i].addEventListener("click", wipe)
         }

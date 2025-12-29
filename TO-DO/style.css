@@ -1,25 +1,30 @@
 .heading{
     margin-top: 0;
     text-align: center;
-    background-color: #ffc2c2;
+
 }
+
 .heading:hover{
-    background-color: #ffadad;
     transition: 0.5s;
+
 }
 body{
     margin:0px;
-    background-color: aliceblue;
+    background-color: #f8f8f8;
 }
 #input{
-    width: 200px;
+    width: 230px;
+    height: 20px;
     margin: 10px;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 #add{
-    width: 50px;
+    width: 70px;
+    height: 40px;
     background-color: rgb(130, 229, 130);
-    border-radius: 10%;
+    border-radius: 30px;
     box-shadow: 5px 2px 5px;
 }
 #add:hover{
@@ -28,8 +33,12 @@ body{
     background-color: rgb(56, 255, 56);
 }
 #list{
-    margin: 10px;
-    line-height: 30px;
+    font-size: 20px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 40px;
 }
 
 .list-items {
@@ -43,6 +52,13 @@ body{
 .list-items.done .list-label {
     text-decoration: line-through;
     opacity: 0.6;
+}
+
+.input-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
